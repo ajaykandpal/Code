@@ -2,7 +2,7 @@
  Download the necessasry python packages.
 
 -Run crop.py like:- (make sure input image is in its correct orientation; i.e; face should be in upright direction)
- python crop.py image_name
+ python crop.py image_path
 
  You will see the passport size image of your input image.
 
