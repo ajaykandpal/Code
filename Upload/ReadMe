@@ -1,0 +1,11 @@
+Run crop.py like:-
+python crop.py image_name
+
+You will see the passport size image of your input image.
+
+
+Run rotate.py like:-
+python rotate.py image_name
+
+You will get the passport size image of your input image.
+
