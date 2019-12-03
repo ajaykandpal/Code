@@ -6,7 +6,7 @@ from scipy import ndimage
 
 #rotation angle in degree
 
-bucket='sarikas3'
+bucket='your bucket name'
 s3=boto3.client('s3')
 head,tail=os.path.split(sys.argv[1])
 
