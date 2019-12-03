@@ -1,18 +1,21 @@
-Run crop.py like:- (make sure input image is in its correct orientation; i.e; face should be in upright direction)
-python crop.py image_name
+-Make sure the "haarcascade_frontalface_default.xml" file is in the same folder as the script you want to run.
+ Download the necessasry python packages.
 
-You will see the passport size image of your input image.
+-Run crop.py like:- (make sure input image is in its correct orientation; i.e; face should be in upright direction)
+ python crop.py image_name
 
-
-Run rotate.py like:-
-python rotate.py image_path
-
-You will get the passport size image of your input image in OUTPUT folder and 
-your input image in its correct orientation in INPUT folder.
+ You will see the passport size image of your input image.
 
 
-Run rot_up.py like:-
-python rot_up.py.py image_path
+-Run rotate.py like:-
+ python rotate.py image_path
 
-You will get the passport size image of your input image in OUTPUT folder of your Amazon S3 bucket and 
-your input image in its correct orientation in INPUT folder of Amazon S3 bucket.
+ You will get the passport size image of your input image in OUTPUT folder and 
+ your input image in its correct orientation in INPUT folder.
+
+
+-Run rot_up.py like:-
+ python rot_up.py.py image_path
+
+ You will get the passport size image of your input image in OUTPUT folder of your Amazon S3 bucket and 
+ your input image in its correct orientation in INPUT folder of Amazon S3 bucket.
