@@ -1,0 +1,7 @@
+- Download necessary pyhton packages.
+- Make sure the "haarcascade_frontalface_default.xml" file is in same folder as the script.
+- Make two folders inside the folder containing all the PDFs namely:- "with_image" and "no_image".
+- Run the script like:-
+pthon t.py folder_containing_pdfs
+
+The pdfs will get stored in with_image and no_image folder accordingly.
