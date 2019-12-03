@@ -11,6 +11,7 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 image = cv2.imread(sys.argv[1])
 
 rotated90 = ndimage.rotate(image, 90)
+head,tail=os.path.split(sys.argv[1])
  
 # 180 degrees
 # M = cv2.getRotationMatrix2D(center, angle180, scale)
@@ -35,8 +36,8 @@ def my(img):
 		    # rect_img[:] = 0 
 		    cv2.imshow('aft', rect_img)
 		    cv2.waitKey(0)
-		    path= "Output/"+sys.argv[1]
-		    path2= "Input/"+sys.argv[1]
+		    path= "Output/"+tail
+		    path2= "Input/"+tail
 		    cv2.imwrite(path,rect_img)
 		    cv2.imwrite(path2,copy)
 		    # cv2.imwrite(path+"_face",rect_img)
